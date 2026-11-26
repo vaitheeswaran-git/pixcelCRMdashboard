@@ -1,0 +1,17 @@
+{
+  "name": "pixelcrm",
+  "version": "1.0.0",
+  "description": "Pixel CRM Business Dashboard",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node --watch backend/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "better-sqlite3": "^12.4.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2"
+  }
+}
